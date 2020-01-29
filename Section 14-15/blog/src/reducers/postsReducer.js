@@ -1,4 +1,11 @@
-export default () =>
+export default (state = [], action) =>
 {
-    return 123;
-}
+    switch (action.type)
+    {
+        case 'FETCH_POSTS':
+            return action.payload;
+
+        default:
+            return state
+    }
+};
