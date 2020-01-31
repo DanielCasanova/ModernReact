@@ -1,3 +1,16 @@
 {
-    "streams": []
+  "streams": [
+    {
+      "title": "stream One",
+      "description": "The one",
+      "userId": "107230599086670999347",
+      "id": 1
+    },
+    {
+      "title": "LoL LEC",
+      "description": "League of Legends",
+      "userId": "107230599086670999347",
+      "id": 2
+    }
+  ]
 }
